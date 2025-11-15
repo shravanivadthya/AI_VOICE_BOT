@@ -16,7 +16,7 @@ st.title("Voice AI Chatbot")
 st.write("Ask anything — the bot will respond!")
 
 # Initialize Gemini client
-client = genai.Client(api_key="AIzaSyAUtSl7j2ET0Sam7lliXg3qUncnCsGeCdY")
+client = genai.Client(api_key="")
 
 def get_ai_response(prompt):
     response = client.models.generate_content(
